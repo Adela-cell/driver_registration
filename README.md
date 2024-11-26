@@ -79,11 +79,11 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
    - **Request Body** (JSON):
      ```json
      {
-       "name": "John Doe",
-       "phone": "1234567890",
-       "email": "john.doe@example.com",
-       "license_number": "AB12345",
-       "address": "123 Elm Street"
+       "name": "Samuel Brian",
+       "phone":"9011262024",
+       "email": "sammybrian@gmail.com",
+       "license_number": "AB23671",
+       "address": "41 ademola Street"
      }
      ```
    - **Response** (Success):
@@ -91,11 +91,11 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
      {
        "message": "Driver registered successfully!",
        "driver": {
-         "name": "John Doe",
-         "phone": "1234567890",
-         "email": "john.doe@example.com",
-         "license_number": "AB12345",
-         "address": "123 Elm Street"
+         "name": "Samuel Brian",
+         "phone": "9011262024",
+         "email": "sammybrian@gmail.com",
+         "license_number": "AB23671",
+         "address": "41 ademola Street"
        }
      }
      ```
@@ -117,11 +117,11 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
        "message": "Driver found!",
        "driver": {
          "_id": "648a6c25e9879c3ab00f2032",
-         "name": "John Doe",
-         "phone": "1234567890",
-         "email": "john.doe@example.com",
-         "license_number": "AB12345",
-         "address": "123 Elm Street"
+         "name": "Samuel Brian",
+         "phone": "9011262024",
+         "email": "sammybrian@gmail.com",
+         "license_number": "AB23671",
+         "address": "41 ademolaStreet"
        }
      }
      ```
